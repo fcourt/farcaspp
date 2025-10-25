@@ -20,13 +20,13 @@ export function WalletActions() {
 
   async function sendTransactionHandler() {
   sendTransaction({
-      to: 'MY_CONTRACT_ADRESS',
+      to: 'REPLACE_WITH_MY_CONTRACT_ADRESS',
       value: parseEther('0.000001'),
     })
   }
 
   // Adresse du contrat déployé /// A METTRE AVANT PRECEDENTE FUNCTION ??????
-  const contractAddress = 'MY_CONTRACT_ADRESS'
+  const contractAddress = 'REPLACE_WITH_MY_CONTRACT_ADRES'
 
   async function handleSend(message: string) {
     try {
